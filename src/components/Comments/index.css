@@ -1,0 +1,188 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  font-family: Roboto;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 320px;
+}
+.heading {
+  color: #1e293b;
+  font-size: 35px;
+}
+
+.comments-img {
+  height: 200px;
+  width: 250px;
+}
+
+.comment-heading {
+  font-size: 14px;
+  font-weight: 600;
+  color: #475569;
+}
+.input-name {
+  background-color: transparent;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  height: 35px;
+  width: 270px;
+  color: #1e293b;
+  font-weight: 600;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.input-comment {
+  background-color: transparent;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  height: 150px;
+  width: 270px;
+  color: #1e293b;
+  font-weight: 600;
+  padding-left: 5px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  outline: none;
+}
+.add-comment-btn {
+  background-color: #0284c7;
+  border-radius: 5px;
+  color: #ffffff;
+  border-width: 0;
+  height: 35px;
+  width: 120px;
+}
+.count-container {
+  display: flex;
+  align-items: center;
+}
+.counter {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+.count {
+  background-color: #0284c7;
+  border-radius: 3px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 13px;
+}
+.comment-list {
+  padding-left: 0;
+}
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    min-height: 100vh;
+    font-family: Roboto;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 700px;
+    padding-left: 60px;
+  }
+  .heading {
+    color: #1e293b;
+    font-size: 55px;
+  }
+  .img-container {
+    order: 1;
+    margin-left: 30px;
+  }
+  .comments-img {
+    height: 250px;
+    width: 300px;
+  }
+
+  .comment-heading {
+    font-size: 18px;
+    font-weight: 600;
+    color: #475569;
+  }
+  .input-name {
+    background-color: transparent;
+    border: 1px solid #cbd2d9;
+    border-radius: 5px;
+    height: 40px;
+    width: 340px;
+    color: #1e293b;
+    font-weight: 600;
+    padding-left: 5px;
+    margin-bottom: 10px;
+  }
+  .input-comment {
+    background-color: transparent;
+    border: 1px solid #cbd2d9;
+    border-radius: 5px;
+    height: 160px;
+    width: 340px;
+    color: #1e293b;
+    font-weight: 600;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+  }
+  .add-comment-btn {
+    background-color: #0284c7;
+    border-radius: 5px;
+    color: #ffffff;
+    border-width: 0;
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+  }
+  .count-container {
+    display: flex;
+    align-items: center;
+  }
+  .counter {
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 5px;
+  }
+  .count {
+    background-color: #0284c7;
+    border-radius: 3px;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 18px;
+  }
+  .comment-list {
+    padding-left: 0;
+  }
+  .line {
+    border: 2px solid #94a3b8;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-image-container {
+    display: flex;
+    align-items: center;
+  }
+}
